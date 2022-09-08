@@ -9,16 +9,16 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: L
+  font_size: M
 
 # SEO
 
 marketing:
   seo:
-    site_type: Person
+    site_type: Academic
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
+    description: 'Enrico Stivella personal website'
     twitter: 'wowchemy'
   analytics:
     google_analytics: ''
@@ -33,7 +33,7 @@ header:
   navbar:
     enable: true
     align: l
-    show_logo: true
+    show_logo: false
     show_language: false
     show_day_night: true
     show_search: true
@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Enrico Stivella.' # This work is licensed under {license}'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/<username>/<repository>' #probabilmente cambiare qui
     content_dir: content
     branch: main
   avatar:

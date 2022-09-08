@@ -6,7 +6,7 @@ widget: contact
 headless: true
 
 # Order that this section appears on the page.
-weight: 130
+weight: 50
 
 title: Contact
 subtitle:
@@ -16,41 +16,41 @@ content:
   autolink: true
 
   # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
+  #form:
+   # provider: netlify
+    #formspree:
+     # id:
+    #netlify:
       # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+     # captcha: false
 
   # Contact details (edit or remove options as required)
-  email: test@example.org
-  phone: 888 888 88 88
+  #email: enrico.stivella@phd.unibocconi.it
+  email: enrico.stivella@unibocconi.it
+  #phone: 888 888 88 88
   address:
-    street: 450 Serra Mall
-    city: Stanford
-    region: CA
-    postcode: '94305'
-    country: United States
-    country_code: US
+    street: via Rotgen 1
+    city: Milan
+    #region: CA
+    postcode: '20136'
+    country: Italy
+    country_code: IT
   coordinates:
-    latitude: '37.4275'
-    longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+    latitude: '45.45096309357562'
+    longitude: '9.187722382190515'
+  directions: Office 5-e2-03 on Floor 5
   office_hours:
-    - 'Monday 10:00 to 13:00'
-    - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com'
-  contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/Twitter'
-    - icon: video
-      icon_pack: fas
-      name: Zoom Me
-      link: 'https://zoom.com'
+    - 'Wednesday 15:00 to 17:30'
+  #appointment_url: ''  #inserire qui l'agenda virtuale bocconi
+  #contact_links:
+   # - icon: twitter
+    #  icon_pack: fab
+     # name: DM Me
+     # link: 'https://twitter.com/Twitter'
+    #- icon: video
+     # icon_pack: fas
+     # name: Zoom Me
+      #link: 'https://zoom.com'
 
 design:
   columns: '2'
