@@ -14,7 +14,7 @@ organizations:
     url: https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Interested in Economics of Science, Innovation and Human Capital
+bio: Mostly doing research in Economics of Science, Innovation and Human Capital. If not, playing basketball
 
 #interests to show in about widget 
 interests:
@@ -64,12 +64,13 @@ email: ''
 highlight_name: true
 ---
 
+
 I grew up in a small village close to Pavia. In 2015 I received a scholarship as a honors student at the [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) and I moved to Pisa .
 
 I hold a Master's Degree in Economics, earned in a [program](https://mse.ec.unipi.it) that was jointly developed by Sant'Anna School and the [University of Pisa](https://www.ec.unipi.it).
 
-I am interested in the fields of Economics of Science and Innovation.\
-In my last project, I have worked on the consequences of the Chernobyl referendum in Italy.\
-In particular, I tried to understand if nuclear scientists were able to bring their scientific competences to new fields
+I am working in the fields of Economics of Science and Innovation.\
+In particular, I would like to study how scientists can become experts in a specific field, and then bring those competences to new fields, generating innovation.
+In my last project, I have used the Chernobyl referendum in Italy as a natural experiment that moved scientists to new scientific fields.\
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv_sept_2022.pdf" "newtab" >}}CV{{< /staticref >}}.
