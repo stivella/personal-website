@@ -73,4 +73,4 @@ I am working in the fields of Economics of Science and Innovation.\
 In particular, I would like to study how scientists can become experts in a specific field, and then bring those competences to new fields, generating innovation.
 In my last project, I have used the Chernobyl referendum in Italy as a natural experiment that moved scientists to new scientific fields.\
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv_sept_2022.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/cv_sept_2022.pdf" "newtab" >}}CV{{< /staticref >}}.
