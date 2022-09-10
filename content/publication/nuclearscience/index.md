@@ -47,7 +47,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: "static/uploads/slides/Scientific_resilience.pdf" #
+url_slides: '' #"static/uploads/slides/Scientific_resilience.pdf" #
 url_source: ''
 url_video: ''
 
