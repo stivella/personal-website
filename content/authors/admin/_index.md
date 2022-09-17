@@ -65,12 +65,12 @@ highlight_name: true
 ---
 
 
-I grew up in a small village close to Pavia. In 2015 I received a scholarship as a honors student at the [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) and I moved to Pisa .
+I am a Phd student in Economics at Bocconi University. Before that, I grew up in a small village close to Pavia. In 2015 I received a scholarship as a honors student at the [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) and I moved to Pisa .
 
 I hold a Master's Degree in Economics, earned in a [program](https://mse.ec.unipi.it) that was jointly developed by Sant'Anna School and the [University of Pisa](https://www.ec.unipi.it).
 
 I am working in the fields of Economics of Science and Innovation.\
 In particular, I would like to study how scientists can become experts in a specific field, and then bring those competences to new fields, generating innovation.
-In my last project, I have used the Chernobyl referendum in Italy as a natural experiment that moved scientists to new scientific fields.\
+In my last project, I have used the Chernobyl referendum in Italy as a natural experiment that moved scientists to new scientific fields.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/cv_sept_2022.pdf" "newtab" >}}CV{{< /staticref >}}.
