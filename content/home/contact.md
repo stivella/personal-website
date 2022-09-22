@@ -29,7 +29,7 @@ content:
   email: enrico.stivella@unibocconi.it
   #phone: 888 888 88 88
   address:
-    street: via Rotgen 1
+    street: via Röntgen 1
     city: Milan
     #region: CA
     postcode: '20136'
