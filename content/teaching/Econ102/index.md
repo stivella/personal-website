@@ -1,6 +1,6 @@
 ---
 categories: []
-date: 2022-09-01 00:00:00+01:00
+date: 2023-09-12 00:00:00+01:00
 draft: false
 image:
   caption: #Constrained Optimisation
@@ -14,9 +14,7 @@ I am the Teaching Assistant for the undergraduate course in Macroeconomics at Bo
 
 ### Classes
 
-* TBD
-
-* TBD
+* CLEF 9 and 10, for professor Michela Braga
 
 ## Materials
 

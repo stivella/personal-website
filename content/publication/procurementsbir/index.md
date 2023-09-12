@@ -1,5 +1,5 @@
 ---
-title: 'Scientific resilience: How Italian nuclear physics changed after the Chernobyl disaster'
+title: 'Procuring innovation: evidence from the SBIR program'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -12,11 +12,11 @@ authors:
  # - 'Equal contribution'
  # - 'Equal contribution'
 
-date: '2022-09-01T00:00:00Z'
+date: '2023-09-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-09-01T00:00:00Z'
+publishDate: '2023-09-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,10 +25,10 @@ publishDate: '2022-09-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: 2nd year paper for Bocconi PhD in Economics
-publication_short: 2nd year paper
+publication: 3rd year paper for Bocconi PhD in Economics
+publication_short: 3rd year paper
 
-abstract: The main factor in the production of knowledge is scientists’ human capital. I study how flexible it is, trying to understand if researchers can bring valuable contributions to innovation out of their main field of studies. I focus on the careers of Italian nuclear scientists before and after the Chernobyl disaster of 1986. The following year in Italy a referendum stopped the production of nuclear energy, and strongly reduced fundings to research in that field. Using Microsoft Academic Graph, I show that nuclear fission scientists were not able to relocate outside their main field. After Chernobyl, the amount of Italian papers published in nuclear fission decreased by 50%. Researchers who had already published in fission experienced a reduction of 25% in their citations, and 10% in published papers. Compared to other physicists, they neither moved more frequently, nor contributed permanently to more new fields.
+abstract: Economists have been long debating about the effectiveness of policies aimed at inducing directed technical change. Policymakers can use several tools, such as military-driven public investment, research grants, or public procurement. I examine a unique amalgamation of such tools in a US context, where small busi- nesses winning federal research grants (SBIR) can also secure procurement con- tracts from the Department of Defense. Employing a Difference-in-Differences framework and three comprehensive datasets - SBIR grants, DoD procurement contracts (USAspending.gov), and Patstat - I find that while procurement con- tract winners do not patent more than other SBIR participants, they get 1 million dollars more in government contracts every year.
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -42,19 +42,19 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: '/nuclear_science.pdf'
+url_pdf: '/procurement_sbir.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: '' #"static/uploads/slides/Scientific_resilience.pdf" # /Users/enricostivella/personal-website/static/uploads/slides/Scientific_resilience.pdf
+url_slides: '' #"static/uploads/slides/Scientific_resilience.pdf" #
 url_source: ''
 url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Trino vercellese power plant'
+  caption: 'Procurement winners secure further contracts in the future'
   focal_point: ''
   preview_only: false
 

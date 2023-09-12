@@ -1,6 +1,6 @@
 ---
 categories: []
-date: 2022-02-01 00:00:00+01:00
+date: 2023-09-12 00:00:00+01:00
 draft: false
 image:
   caption: #Constrained Optimisation
