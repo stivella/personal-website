@@ -40,7 +40,8 @@ content:
     longitude: '9.187722382190515'
   directions: Office 5-e2-03 on Floor 5
   office_hours:
-    - 'Wednesday 15:00 to 17:30'
+    - 'Wednesday 10:15 to 11:45'
+    - 'Wednesday 15:00 to 16:30'
   #appointment_url: ''  #inserire qui l'agenda virtuale bocconi
   #contact_links:
    # - icon: twitter
