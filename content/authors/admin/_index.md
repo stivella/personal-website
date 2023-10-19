@@ -14,7 +14,7 @@ organizations:
     url: https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mostly doing research in Economics of Science, Innovation and Human Capital. If not, playing basketball
+bio: Mostly doing research in Economics of Science, Innovation and Human Capital. If not, playing basketball or getting lost in the mountains.
 
 #interests to show in about widget 
 interests:
@@ -65,12 +65,10 @@ highlight_name: true
 ---
 
 
-I am a Phd student in Economics at Bocconi University. Before that, I grew up in a small village close to Pavia. In 2015 I received a scholarship as a honors student at the [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) and I moved to Pisa .
+I am a Phd student in Economics at Bocconi University. Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.\
 
-I hold a Master's Degree in Economics, earned in a [program](https://mse.ec.unipi.it) that was jointly developed by Sant'Anna School and the [University of Pisa](https://www.ec.unipi.it).
 
 I am working in the fields of Economics of Science and Innovation.\
-In particular, I would like to study how scientists can become experts in a specific field, and then bring those competences to new fields, generating innovation.
-In my last project, I have used the Chernobyl referendum in Italy as a natural experiment that moved scientists to new scientific fields.
-
+In my research so far, I tried to go after two questions: First, how do scientists and engineers transfer their skills to new contexts, and possibly generate innovation and growth? Second, when and how should the public sector direct technological change?
+I tried to answer to the first question by studying the careers of Italian nuclear scientists, whose field of studies was defunded after the Chernobyl disaster. In another project I studied how public procurement impacts US innovative small businesses.\
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/cv_sept_2022.pdf" "newtab" >}}CV{{< /staticref >}}.
