@@ -54,7 +54,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Trino vercellese power plant'
+  caption: 'Trino Vercellese power plant'
   focal_point: ''
   preview_only: false
 
