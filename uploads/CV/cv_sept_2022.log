@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.14)  10 SEP 2022 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.14)  19 OCT 2023 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -690,11 +690,11 @@ Package microtype Info: Character `013' is missing
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     268.
+(LaTeX3)     271.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     268.
+(LaTeX3)     271.
 
  (/Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.aux)
 Package rerunfilecheck Info: File `cv_sept_2022.out' has not changed.
@@ -703,13 +703,13 @@ Package rerunfilecheck Info: File `cv_sept_2022.out' has not changed.
 Here is how much of TeX's memory you used:
  16424 strings out of 478994
  307777 string characters out of 5858184
- 802900 words of memory out of 5000000
+ 803900 words of memory out of 5000000
  33557 multiletter control sequences out of 15000+600000
  446174 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,8n,116p,10664b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.pdf (1 page, 75056 bytes).
+Output written on /Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.pdf (1 page, 75313 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
