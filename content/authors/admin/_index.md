@@ -65,7 +65,7 @@ highlight_name: true
 ---
 
 
-I am a Phd student in Economics at Bocconi University. Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.\
+I am a Phd student in Economics at Bocconi University. Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.
 
 
 I am working in the fields of Economics of Science and Innovation.\
