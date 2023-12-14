@@ -71,4 +71,4 @@ I am a Phd student in Economics at Bocconi University. Before that, I was as a h
 I am working in the fields of Economics of Science and Innovation.\
 In my research so far, I tried to go after two questions: First, how do scientists and engineers transfer their skills to new contexts, and possibly generate innovation and growth? Second, when and how should the public sector direct technological change?
 I tried to answer to the first question by studying the careers of Italian nuclear scientists, whose field of studies was defunded after the Chernobyl disaster. In another project I studied how public procurement impacts US innovative small businesses.\
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/cv_sept_2022.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/cv_stivella.pdf" "newtab" >}}CV{{< /staticref >}}.
