@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.14)  19 OCT 2023 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.14)  14 DEC 2023 12:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.tex
-(/Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.tex
+**/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex
+(/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2021/03/17 v3.33 KOMA-Script document class (article)
@@ -570,8 +570,8 @@ File: ot1pplj.fd 2004/09/06 font definitions for OT1/pplj.
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
 \l__pdf_internal_box=\box51
-) (/Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.aux)
-\openout1 = `cv_sept_2022.aux'.
+) (/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.aux)
+\openout1 = `cv_stivella.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -639,9 +639,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
- (/Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.out) (/Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.out)
+ (/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.out) (/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.out)
 \@outlinefile=\write3
-\openout3 = `cv_sept_2022.out'.
+\openout3 = `cv_stivella.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -696,20 +696,20 @@ LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 (LaTeX3)     271.
 
- (/Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.aux)
-Package rerunfilecheck Info: File `cv_sept_2022.out' has not changed.
+ (/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.aux)
+Package rerunfilecheck Info: File `cv_stivella.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  16424 strings out of 478994
- 307777 string characters out of 5858184
- 803900 words of memory out of 5000000
+ 307762 string characters out of 5858184
+ 803895 words of memory out of 5000000
  33557 multiletter control sequences out of 15000+600000
  446174 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,8n,116p,10664b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,8n,116p,10663b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/enricostivella/personal-website/static/uploads/CV/cv_sept_2022.pdf (1 page, 75313 bytes).
+Output written on /Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf (1 page, 75434 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
