@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1713791822 "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex" "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf" "cv_stivella" 1713791852
+["pdflatex"] 1713791822 "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex" "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf" "cv_stivella" 1713791880
   "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.aux" 1713791823 1188 bd23c9d5c16727643fed92a62f89c461 ""
   "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex" 1713791822 13340 14a9074cea456f48f7ec9382be98da9c ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -125,9 +125,9 @@
   "cv_stivella.out" 1713791823 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "cv_stivella.tex" 1713791822 13340 14a9074cea456f48f7ec9382be98da9c ""
   (generated)
-  "cv_stivella.aux"
-  "cv_stivella.log"
+  "cv_stivella.out"
   "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf"
   "cv_stivella.pdf"
+  "cv_stivella.log"
+  "cv_stivella.aux"
   "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.log"
-  "cv_stivella.out"
