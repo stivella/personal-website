@@ -16,7 +16,7 @@ I am the Teaching Assistant for the undergraduate course in Mechanism Design at 
 
 * BEMACS 2021-22, for professors Fausto Panunzi and Tangren Feng
 
-* BEMACS 2022-23, for professor Nenad Kos 
+* BEMACS 2022-23, 2023-24, for professor Nenad Kos 
 
 ## Materials
 

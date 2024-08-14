@@ -14,7 +14,7 @@ I am the Teaching Assistant for the undergraduate course in Macroeconomics at Bo
 
 ### Classes
 
-* CLEF 9 and 10, for professor Michela Braga
+* CLEF 9 and 10, for professor Michela Braga (Spring 2023 and 2024)
 
 ## Materials
 

@@ -1,24 +1,26 @@
 ---
 categories: []
-date: 2023-09-12 00:00:00+01:00
+date: 2024-07-08 00:00:00+01:00
 draft: false
 image:
   caption: #Constrained Optimisation
   focal_point: Right
-summary: Teaching Assistant #for Fausto Panunzi
+summary: Instructor #for Fausto Panunzi
 tags:
 #- teaching
-title: Econ 101
+title: Game Theory
 ---
-I am the Teaching Assistant for the undergraduate course in Microeconomics at Bocconi University (code 30065)
+I was the main instructor for the Bocconi summer school course in Game Theory
 
-### Classes
+### Description
 
-* CLEAM 1, for professor Nicoletta Corrocher (2021-on)
-
-* CLEAM 2, for professors Fausto Panunzi and Monica Bonacina (2022-on)
+Bocconi holds a summer school for high school students who are interested in economics. The course I taught was an introduction to game theory.
+I covered the basics of game theory, including the concepts of Nash equilibrium, dominant strategies, and the prisoner's dilemma. 
+I introduced students to the concept of repeated games, and the idea of subgame perfect equilibria.
+Lastly, I gave them an overview of some more advanced topics, such as evolutionary game theory or incomplete information interactions (such as Akerlof's lemons model or auctions).
+The course was taught in English and was designed to be interactive, with students working on problems in groups.
 
 ## Materials
 
-* The entire course material is on the website [Econ 101](https://didattica.unibocconi.it/ts/tsn_anteprima.php?cod_ins=30065&anno=2023&IdPag=)
+* The entire course material is on the website [Summer School](https://www.unibocconi.it/it/corsi-di-studio/summer-school)
 
