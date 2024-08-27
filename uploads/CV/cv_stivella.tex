@@ -39,6 +39,18 @@
 
 \newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
 
+
+% Define the \cvreference command for contact references
+\newcommand{\cvreference}[6]{%
+    \textbf{#1}\newline% Name
+    #2\newline% Department
+    #3\newline% University
+    #4\newline% Address
+    #5\newline% City
+    \textit{\href{mailto:#6}{#6}\newline% Email
+    }% Phone number
+}
+
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -121,6 +133,32 @@
 
 
 
+%\vspace{1em}
+%----------------------------------------------------------------------------------------
+%	CONFERENCE PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Conference Presentations}\vspace{1em}
+
+
+% 2024: Milan PhD Conference, Milan; EDGE Jamboree (Dublin)
+
+\NewEntry{2024}{}
+
+\vspace{-1.5em}
+\Description{\MarginText{}
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Milan PhD Conference, Bicocca; EDGE Jamboree, Dublin}}%\vspace{-1em} 
+
+% 2023: Regis (Reading Group in Innovation Studies), Pisa; Milan PhD Conference, Milan; Società Italiana degli Economisti, L'Aquila 
+
+\NewEntry{2023}{}
+
+\vspace{-1.5em}
+%\Description{\MarginText{Regis (Reading Group in Innovation Studies), Pisa}
+\Description{\MarginText{}  
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Regis (Reading Group in Innovation Studies), Pisa; Milan PhD Conference, Bocconi-PoliMi; Società Italiana degli Economisti, L'Aquila}}%\vspace{-1em}
+
+
 %----------------------------------------------------------------------------------------
 %	SCHOLARSHIPS
 %----------------------------------------------------------------------------------------
@@ -161,6 +199,29 @@
 
 \spacedlowsmallcaps{Teaching}\vspace{0.5em}
 
+\NewEntry{\footnotesize{Instructor}}{}
+
+\vspace{-1.5em}
+
+\Description{\MarginText{}  
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Game Theory ; Bocconi $\cdot$ Summer School 2024}}\vspace{-1em}
+
+\NewEntry{\footnotesize{TA (2022-now)}}{}
+
+\vspace{-1.5em}
+
+\Description{\MarginText{}  
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Econ 101 $\cdot$ Econ 102 $\cdot$ IO $\cdot$ Mech. Design ; Bocconi undergrad}}\vspace{-1em}
+
+\NewEntry{\footnotesize{TA (2022-now)}}{}
+
+\vspace{-1.5em}
+
+\Description{\MarginText{}  
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Industry Analysis ; Bocconi master}}\vspace{-1em}
+
+
+\iffalse 
 %\vspace{-0.5em}
 %template for ta jobs
 \NewEntry{2022-now}{}
@@ -202,7 +263,7 @@
 \Description{\MarginText{}  
 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {TA $\cdot$ Econ 101 (undergrad) $\cdot$ Bocconi}}
 
-
+\fi 
 
 
 
@@ -224,6 +285,8 @@
 
 \spacedlowsmallcaps{Languages}\vspace{1em}
 
+\Description{\MarginText{} \textsc{Italian} $\cdotp$ \emph{Native} ; \textsc{English} $\cdotp$ \emph{Professional} ; \textsc{Spanish} $\cdotp$ \emph{Intermediate} ; \textsc{French} $\cdotp$ \emph{Basic}}
+\iffalse 
 \newlength{\langbox} % Create a new length for the length of languages to keep them equally spaced
 \settowidth{\langbox}{English} % Length equals the length of "English" - if you have a longer language in your list put it here
 
@@ -242,19 +305,55 @@
 \Description{\parbox{\langbox}{\textsc{French}}\ \ $\cdotp$\ \ \ Basic }
 
 \vspace{-1em} % Negative vertical space to counteract the vertical space between every \Description command
-
+\fi 
 
 %\Description{\MarginText{Advanced}Computer Hardware and Support}
 
 %------------------------------------------------
 
 
+% ADD references section
 
 
 
+\clearpage
+% first reference
 
+% Contact Reference Section
+\spacedlowsmallcaps{Contact References}\vspace{1em}
 
+% Begin minipage environment for side-by-side layout
+\begin{minipage}[t]{0.45\textwidth}
+    \footnotesize % Begin tiny font size environment for first reference
+    \cvreference{Nicolas Serrano Velarde}
+        {Department of Finance}
+        {Bocconi University}
+        {Via Roentgen 1}
+        {20136 Milano, Italy}
+        {nicolas.serranovelarde@unibocconi.it}\\[1em]
+\end{minipage}\hfill % Add horizontal space between minipages
+\begin{minipage}[t]{0.45\textwidth}
+    \footnotesize % Begin tiny font size environment for second reference
+    \cvreference{Carlo Schwarz}
+        {Department of Economics}
+        {Bocconi University}
+        {Via Roentgen 1}
+        {20136 Milano, Italy}
+        {carlo.schwarz@unibocconi.it}
+\end{minipage}
+% End minipage environment for side-by-side layout
 
+% add third reference
+\iffalse 
+{\footnotesize % Begin tiny font size environment
+\cvreference{Nicola Limodio}
+        {Department of Finance}
+        {Bocconi University}
+        {Via Roentgen 1}
+        {20136 Milano, Italy}
+        {nicola.limodio@unibocconi.it}\\[1em]
+} % End tiny font size environment
+\fi 
 
 
 
