@@ -1,5 +1,5 @@
 ---
-title: 'PIPPO'
+title: 'Loans and human capital: Manager mobility in the ﬁnancial sector and credit allocation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -12,11 +12,11 @@ authors:
  # - 'Equal contribution'
  # - 'Equal contribution'
 
-date: '2022-09-01T00:00:00Z'
+date: '2025-01-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-09-01T00:00:00Z'
+publishDate: '2025-01-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,10 +25,23 @@ publishDate: '2022-09-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: 2nd year paper for Bocconi PhD in Economics
-publication_short: 2nd year paper
+publication: 'Pippo'
+publication_short: 'Pippo'
 
-abstract: Scientists’ human capital is the main factor in the production of knowledge. I study how ﬂexible ﬁeld-speciﬁc human capital is, trying to understand if researchers can bring valuable contributions to innovation out of their main ﬁeld of studies. I focus on the careers of Italian nuclear scientists before and after the Chernobyl disaster of 1986. In 1987 in Italy a referendum stopped the production of nuclear energy, and strongly reduced fundings to research in that ﬁeld. Using data from Microsoft Academic Graph, I show that after Chernobyl the amount of Italian papers published in nuclear ﬁssion decreased by 50%. Researchers who had already published in ﬁssion experienced a reduction of 24% in their citations, and 7% in published papers 15 years after the shock. Compared to other physicists, they neither moved more frequently, nor contributed permanently to more new ﬁelds.
+abstract: Information production is a central feature of banking. Branch managers
+are able to directly monitor their borrowers, build relationships with them and
+acquire soft information, which is not coded in any bank database. In this
+paper we measure the consequences of management turnover in banks for the
+allocation of credit in the economy. To do so we combine novel administrative
+data on the ﬁnancial sector workforce and match it to credit registry data.
+First, we show that 5 years after a branch managers leaves her branch, 40%
+of the client ﬁrms leave as well. Second, the new branch of the manager is
+3.5 times more likely to establish a credit relationship with a former client of
+the manager. We argue that the manager brings valuable information in two
+ways. First, the new branch is 4 times more likely to request information about
+a former branch client after the manager has joined. Second, conditional on
+requesting information on a client, a branch is 40% more likely to grant a loan
+to a former client of a manager who has joined.
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
