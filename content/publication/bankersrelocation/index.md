@@ -25,8 +25,8 @@ publishDate: '2025-01-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: 
-publication_short: 
+publication: 'Pippo'
+publication_short: 'Pippo'
 
 abstract: Information production is a central feature of banking. Branch managers
 are able to directly monitor their borrowers, build relationships with them and
