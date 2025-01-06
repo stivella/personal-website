@@ -26,8 +26,8 @@ publishDate: '2025-01-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: 2nd year paper for Bocconi PhD in Economics
-publication_short: 2nd year paper
+publication: 
+publication_short: 
 
 abstract: Scientists’ human capital is the main factor in the production of knowledge. I study how ﬂexible ﬁeld-speciﬁc human capital is, trying to understand if researchers can bring valuable contributions to innovation out of their main ﬁeld of studies. I focus on the careers of Italian nuclear scientists before and after the Chernobyl disaster of 1986. In 1987 in Italy a referendum stopped the production of nuclear energy, and strongly reduced fundings to research in that ﬁeld. Using data from Microsoft Academic Graph, I show that after Chernobyl the amount of Italian papers published in nuclear ﬁssion decreased by 50%. Researchers who had already published in ﬁssion experienced a reduction of 24% in their citations, and 7% in published papers 15 years after the shock. Compared to other physicists, they neither moved more frequently, nor contributed permanently to more new ﬁelds.
 # Summary. An optional shortened abstract.
