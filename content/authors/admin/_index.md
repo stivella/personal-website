@@ -65,8 +65,8 @@ highlight_name: true
 ---
 
 
-I am a Phd student in Economics at Bocconi University. Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.
-
+I am a 5th-year Phd student in Economics at Bocconi University. Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.
+In Winter and Spring 2025 I will be visiting professor Ufuk Akcigit at the University of Chicago.\
 
 I am working in the fields of Economics of Science and Innovation.\
 In my research so far, I tried to go after two questions: First, how do scientists and engineers transfer their skills to new contexts, and possibly generate innovation and growth? Second, when and how should the public sector direct technological change?
