@@ -18,9 +18,10 @@ bio: Mostly doing research in Economics of Science, Innovation and Human Capital
 
 #interests to show in about widget 
 interests:
+  - Human Capital
+  - Banking
   - Economics of Science
   - Innovation
-  - Human Capital
 
 # Education to show in About widget
 education:
