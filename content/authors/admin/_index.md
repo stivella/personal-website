@@ -75,11 +75,12 @@ The first one pertains to the field of Economics of Science.
 In particular, I studied the careers of Italian nuclear scientists, whose field of studies was defunded after the Chernobyl disaster.
 I found that these scientists were not successful in transferring their skills to other fields, as their human capital was too specific.\
 In a second project, with Angelo D'Andrea (Bank of Italy), I consider a different population of movers: bank managers.
-Combining Italian data on bank managers'careers with data on bank lending, I find that when a bank manager moves to a new bank, 5% of their previous bank's clients follow them.
+Combining Italian data on bank managers'careers with data on bank lending, I find that when a bank manager moves to a new bank, 5% of their previous bank's clients follow them.\
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/cv_stivella.pdf" "newtab" >}}CV{{< /staticref >}}.
 
-
+<!--
 # I am working in the fields of Economics of Science and Innovation.
 # In my research so far, I tried to go after two questions: First, how do scientists and engineers transfer their skills to new contexts, and possibly generate innovation and growth? Second, when and how should the public sector direct technological change?
 # I tried to answer to the first question by studying the careers of Italian nuclear scientists, whose field of studies was defunded after the Chernobyl disaster. In another project I studied how public procurement impacts US innovative small businesses.\
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/cv_stivella.pdf" "newtab" >}}CV{{< /staticref >}}.
+-->
