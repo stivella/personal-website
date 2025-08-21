@@ -66,8 +66,9 @@ highlight_name: true
 ---
 
 
-I am a 5th-year Phd student in Economics at Bocconi University. Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.\
-In Winter and Spring 2025 I will be visiting professor Ufuk Akcigit at the University of Chicago.
+I am a 5th-year Phd student in Economics at Bocconi University and I will be on the academic job market in Fall 2025.\
+Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.\
+In Winter and Spring 2025 I visited professor Ufuk Akcigit at the University of Chicago.
 
 
 In my research so far, I tried to understand how high skilled workers' mobility can help knowledge diffuse.
