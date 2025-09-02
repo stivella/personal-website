@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1748960131 "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex" "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf" "cv_stivella" 1748960132
-  "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.aux" 1748960132 1220 e5fcf93a47ffc63cc26362dbd45d1627 ""
-  "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex" 1748960130 15570 0470b556b27ad4d958192d77e9ed32cd ""
+["pdflatex"] 1756832475 "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex" "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf" "cv_stivella" 1756832476
+  "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.aux" 1756832476 1220 e5fcf93a47ffc63cc26362dbd45d1627 ""
+  "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.tex" 1756832474 15710 fb3f2b40fc64c312c542669cd491f521 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
@@ -121,13 +121,13 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1642167770 2724737 126a29a67b10c4a4e22421cda11705b3 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "cv_stivella.aux" 1748960132 1220 e5fcf93a47ffc63cc26362dbd45d1627 "pdflatex"
-  "cv_stivella.out" 1748960131 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv_stivella.tex" 1748960130 15570 0470b556b27ad4d958192d77e9ed32cd ""
+  "cv_stivella.aux" 1756832476 1220 e5fcf93a47ffc63cc26362dbd45d1627 "pdflatex"
+  "cv_stivella.out" 1756832475 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv_stivella.tex" 1756832474 15710 fb3f2b40fc64c312c542669cd491f521 ""
   (generated)
+  "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf"
+  "cv_stivella.pdf"
+  "cv_stivella.out"
+  "cv_stivella.log"
   "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.log"
   "cv_stivella.aux"
-  "cv_stivella.out"
-  "cv_stivella.pdf"
-  "/Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf"
-  "cv_stivella.log"
