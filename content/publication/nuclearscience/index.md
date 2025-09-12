@@ -74,6 +74,10 @@ image:
 #slides: "/Scientific_resilience.pdf"
 ---
 
+## <small>Presented at</small>
+
+<small>EDGE Jamboree (UCD Dublin, Sept '24) • Società Italiana degli Economisti (L’Aquila, Oct '23) • Milan PhD Workshop (Bocconi-PoliMi, Sept '23) • Reading Group in Innovation Studies (Pisa, June '23)</small>
+
 <!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
