@@ -7,6 +7,10 @@ title: 'Loans and human capital: Manager mobility in the ﬁnancial sector and c
 authors:
   - Angelo D'Andrea
   - admin
+[//]: # (Insert coauthor's webpage link)
+coauthor_links:
+  - name: Angelo D'Andrea
+    url: https://sites.google.com/view/angelodandrea
 
 # Author notes (optional)
 #author_notes:
@@ -31,7 +35,7 @@ publication_short:
 
 abstract: Information is a core input in financial intermediation, yet little is known about how it is transmitted through labor mobility. In this paper - for the first time - we are able to link administrative data on loan contracts and employment histories to track the movements of bank managers and their portfolios of client firms across financial institutions. We show that when a manager switches employers, firms in their prior portfolio are five times more likely to initiate a lending relationship with the new bank. This effect reflects both a higher propensity of firms to apply for credit and a greater likelihood of loan approval. To isolate the causal role of manager mobility, we exploit variation in the timing of job switches and leverage exogenous shocks to mobility induced by branch closures. Our findings underscore the importance of individual-level human capital in shaping credit market outcomes and highlight a novel channel for information transmission in the financial sector.
 # Summary. An optional shortened abstract.
-summary: Presented at the University of Chicago Booth School of Business, 2024
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 
 
@@ -86,3 +90,11 @@ Create your slides in Markdown - click the _Slides_ button to check out the exam
 {{% /callout %}}
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --!>
+
+## Conferences and Seminars
+
+This paper was presented at the following conferences and seminars:
+
+- XXX Conference, 2024
+- YYY Workshop, 2024
+- ZZZ Seminar, 2025
