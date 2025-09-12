@@ -77,9 +77,9 @@ image:
 #slides: "/Scientific_resilience.pdf"
 ---
 
-## Presented at
+<small>## Presented at</small>
 
-Capital Theory Seminar, Yiran Fan Memorial Conference, Experimental Seminar Series, Applied Micro Student Seminar, AMT Student Seminar (University of Chicago) • EEA Congress (Bordeaux) •  PhD Conference in memory of Denis Gromb (HEC Paris) • EDGE Jamboree (Cambridge) • Department of Finance Seminar, Food 4 Thought, Finance Brown Bag (Bocconi University) • Milan PhD workshop (Bicocca University) • Finest Autumn Workshop (University of Milan) • Labor and Finance Group (Berlin-Halle Iwh)
+<small>Capital Theory Seminar, Yiran Fan Memorial Conference, Experimental Seminar Series, Applied Micro Student Seminar, AMT Student Seminar (University of Chicago) • EEA Congress (Bordeaux) •  PhD Conference in memory of Denis Gromb (HEC Paris) • EDGE Jamboree (Cambridge) • Department of Finance Seminar, Food 4 Thought, Finance Brown Bag (Bocconi University) • Milan PhD workshop (Bicocca University) • Finest Autumn Workshop (University of Milan) • Labor and Finance Group (Berlin-Halle Iwh)</small>
 
 <!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
