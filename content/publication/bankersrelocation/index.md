@@ -7,10 +7,6 @@ title: 'Loans and human capital: Manager mobility in the ﬁnancial sector and c
 authors:
   - Angelo D'Andrea
   - admin
-[//]: # (Insert coauthor's webpage link)
-coauthor_links:
-  - name: Angelo D'Andrea
-    url: https://sites.google.com/view/angelodandrea
 
 # Author notes (optional)
 #author_notes:
@@ -81,6 +77,27 @@ image:
 #slides: "/Scientific_resilience.pdf"
 ---
 
+## Conferences and Seminars
+
+This paper was presented at the following conferences and seminars:
+
+**University of Chicago:**
+- Capital Theory Seminar
+- Yiran Fan Memorial Conference
+- Experimental Seminar Series
+- Applied Micro Student Seminar
+- AMT Student Seminar
+
+**Conferences:**
+- EEA Congress (Bordeaux)
+- HEC PhD Conference (Paris)
+- EDGE Jamboree (Cambridge)
+
+**Other Seminars:**
+- Bocconi Finance
+- Finest Milan
+- Labor and Finance Group (Berlin-Halle Iwh)
+
 <!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
@@ -90,11 +107,3 @@ Create your slides in Markdown - click the _Slides_ button to check out the exam
 {{% /callout %}}
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --!>
-
-## Conferences and Seminars
-
-This paper was presented at the following conferences and seminars:
-
-- XXX Conference, 2024
-- YYY Workshop, 2024
-- ZZZ Seminar, 2025
