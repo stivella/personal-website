@@ -1,450 +1,285 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Classicthesis-Styled CV
-% LaTeX Template
-% Version 1.0 (22/2/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Alessandro Plasmati
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass{scrartcl}
-
-\reversemarginpar% Move the margin to the left of the page 
-
-\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}} % New command defining the margin text style
-
-\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
-\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
-
-\renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
-
-\usepackage{hyperref} % Required for adding links	and customizing them
-\hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
-
-\newlength{\datebox}\settowidth{\datebox}{Spring 2011} % Set the width of the date box in each block
-
-\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{1.5em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
-\vspace{0.5em}} % Add some white space after each new entry
-
-\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+%------------------------------------------------------------------------------
+% CV in Latex
+% Author : Charles Rambo
+% Based off of: https://github.com/sb2nov/resume and Jake's Resume on Overleaf
+% Most recently updated version may be found at https://github.com/fizixmastr 
+% License : MIT
+%------------------------------------------------------------------------------
 
 
-% Define the \cvreference command for contact references
-\newcommand{\cvreference}[6]{%
-    \textbf{#1}\newline% Name
-    #2\newline% Department
-    #3\newline% University
-    #4\newline% Address
-    #5\newline% City
-    \textit{\href{mailto:#6}{#6}\newline% Email
-    }% Phone number
+\documentclass[A4,11pt]{article}
+%\documentclass[letterpaper,11pt]{article} %For use in US
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{tikz}
+\input{glyphtounicode}
+\usepackage{xparse}
+
+
+% edits mpdf metadata (title shows up in the webpage)
+%\AfterPreamble{\hypersetup{
+%		pdfauthor={Enrico Stivella},
+%		pdftitle={Enrico Stivella --- CV}}}
+
+
+% serif
+ \usepackage{palatino}
+% \usepackage{times} %This is the default as well
+% \usepackage{charter}
+
+% sans-serif
+% \usepackage{helvet}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+%-----PAGE SETUP---------------------------------------------------------------
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-1cm}
+\addtolength{\evensidemargin}{-1cm}
+\addtolength{\textwidth}{2cm}
+\addtolength{\topmargin}{-1cm}
+\addtolength{\textheight}{2cm}
+
+% Margins for US Letter size
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0cm}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that .pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-----CUSTOM COMMANDS FOR FORMATTING SECTIONS----------------------------------
+\newcommand{\CVItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
 }
 
-%----------------------------------------------------------------------------------------
 
+
+% Redefine \CVSubheading with an optional fifth argument
+\NewDocumentCommand{\CVSubheading}{ m m m m o }{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{ l @{\extracolsep{\fill}} r }
+		\textbf{#1} & #2 \\
+		{\small #3} & {\small #4}
+		\IfValueT{#5}{
+			\\ {\small #5}
+		}
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\CVAw}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		#1 & #2 \\
+		\small#3 & \small #4 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\CVSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \text{\small#1} & \text{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\CVSubItem}[1]{\CVItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\CVSubHeadingListStart}{\begin{itemize}[leftmargin=0.5cm, label={}]}
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]} % Uncomment for US
+\newcommand{\CVSubHeadingListEnd}{\end{itemize}}
+\newcommand{\CVItemListStart}{\begin{itemize}}
+\newcommand{\CVItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%------------------------------------------------------------------------------
+% CV STARTS HERE  %
+%------------------------------------------------------------------------------
 \begin{document}
 
-\thispagestyle{empty} % Stop the page count at the bottom of the first page
-
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{cv}{\spacedallcaps{Enrico Stivella}}\vspace{1em} % Your name
-
-\noindent\spacedlowsmallcaps{Personal Information}\vspace{0.5em} % Personal information heading
-
-\NewEntry{}{\small{\textit{Born in Italy, Voghera (PV),}}{27 October 1996}} % Birthplace and date
-
-\NewEntry{email}{\href{mailto:enrico.stivella@phd.unibocconi.it}{enrico.stivella@phd.unibocconi.it}} % Email address
-
-\NewEntry{website}{\href{https://enrico-stivella.netlify.app}{enrico-stivella.netlify.app}} % Personal website
-
-%\NewEntry{phone}{ (00)39 331 123 8650}
-%H) +1 (000) 111 1111\ \ $\cdotp$\ \ (M) +1 (000) 111 1112} % Phone number(s)
-
-\vspace{1em} % Extra white space between the personal information section and goal
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-
-%\spacedlowsmallcaps{Research Interests}\vspace{1em}
-
-
-
-\spacedlowsmallcaps{Education}\vspace{1em}
-
-%PhD Visit
-\NewEntry{2025}{\small{University of Chicago, Department of Economics}}
-
-\Description{\MarginText{Visiting PhD Student}
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Supervisor: Ufuk Akcigit}} %\vspace{1em}}%\newline
-
-%PhD
-\NewEntry{2020-now}{\small{Bocconi University}}
-
-\Description{\MarginText{PhD in Economics}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Advisor: Nicolas Serrano Velarde}} %\vspace{1em}}%\newline
-
-%ALLIEVO
-\NewEntry{2015-2020}{\small{Sant'Anna School of Advanced Studies, Pisa}}
-
-\Description{\MarginText{Honors Student}
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ MA diploma $\cdot$ Final grade: 110/110 cum laude}
-
-%MAGISTRALE
-\NewEntry{2018-2020}{\small{University of Pisa and Sant'Anna School}}
-
-\Description{\MarginText{MSc in Economics}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Final grade: 110/110 cum laude}}%\vspace{1em}}%\newline
-
-%TRIENNALE
-\NewEntry{2015-2018}{\small{University of Pisa, Department of Economics}}
-
-\Description{\MarginText{BSc in Economics}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Final grade: 110/110 cum laude, plus encomium}}%\vspace{1em}}%\newline
-
-\vspace{1em} % Extra space between major sections
-
-%----------------------------------------------------------------------------------------
-%	WORK IN PROGRESS
-%----------------------------------------------------------------------------------------
-
-\spacedlowsmallcaps{Work in Progress}\vspace{1em}
-
-%\NewEntry{Sept 2022}{Scientific Resilience}%{an empirical perspective}
-
-\Description{  
-{D'Andrea A, Stivella E (2025). Loans and human capital: Manager mobility in the ﬁnancial sector and credit allocation. Job market paper.}}%\vspace{1em}}%\newline
-
-\Description{  
-{Stivella E (2023). Procuring innovation: evidence from the SBIR program. 3rd year paper, Bocconi University}}%\vspace{1em}}%\newline
-
-\Description{  
-{Stivella E (2022). Scientific resilience: How Italian nuclear physics changed after the Chernobyl disaster. 2nd year paper, Bocconi University}}%\vspace{1em}}%\newline
-
-
-%METTERE QUI IL PAPER
-
-%\newpage %POI CAMBIARLO.
-
-
-
-%\vspace{1em}
-%----------------------------------------------------------------------------------------
-%	CONFERENCE PRESENTATIONS
-%----------------------------------------------------------------------------------------
-
-\spacedlowsmallcaps{Conference Presentations}\vspace{1em}
-
-\NewEntry{2025}{}
-
-\vspace{-1.5em}
-\Description{\MarginText{}
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Capital Theory Seminar, Yiran Fan Memorial Conference, Experimental Seminar Series, Applied Micro Student Seminar, AMT Student Seminar (University of Chicago); Bank-Firm Seminar (Cemfi); EEA Congress (Bordeaux); HEC PhD Conference (HEC - Paris); EDGE Jamboree (Cambridge); Finance Seminar, DLPE Seminar (Bocconi); Finest workshop (University of Milan)}}%\vspace{-1em} 
-
-% 2023: Regis (Reading Group in Innovation Studies), Pisa; Milan PhD Workshop, Milan; Società Italiana degli Economisti, L'Aquila 
-
-% 2024: Milan PhD Workshop, Milan; EDGE Jamboree (Dublin)
-
-\NewEntry{2024}{}
-
-\vspace{-1.5em}
-\Description{\MarginText{}
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Milan PhD Workshop (Bicocca); EDGE Jamboree (UCD Dublin); Finance Brown Bag, Food 4 Thought (Bocconi)}}%\vspace{-1em} 
-
-% 2023: Regis (Reading Group in Innovation Studies), Pisa; Milan PhD Workshop, Milan; Società Italiana degli Economisti, L'Aquila 
-
-\NewEntry{2023}{}
-
-\vspace{-1.5em}
-%\Description{\MarginText{Regis (Reading Group in Innovation Studies), Pisa}
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Regis, Reading Group in Innovation Studies (Pisa); Milan PhD Workshop (Bocconi-PoliMi); Società Italiana degli Economisti (L'Aquila)}}%\vspace{-1em}
-
-
-%----------------------------------------------------------------------------------------
-%	SCHOLARSHIPS
-%----------------------------------------------------------------------------------------
-
-
-\spacedlowsmallcaps{Scholarships}\vspace{0.5em}
-
-%
-\NewEntry{2024-2025}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Bocconi PhD Merit financial support $\cdot$ Fondazione Invernizzi}}\vspace{-1em}
-
-%
-\NewEntry{2020-2024}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Full Bocconi PhD fellowship}}\vspace{-1em}
-
-%
-\NewEntry{2015-2020}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Sant’Anna Honors Student Scholarship}}%\vspace{-1em}
-
-%\NewEntry{2020-now}{Full Bocconi PhD fellowship}%{an empirical perspective}
-
-%\NewEntry{2015-2020}{Sant’Anna Honors Student Scholarship}%{an empirical perspective}
-
-%METTERE QUI IL PAPER
-
-%\newpage %POI CAMBIARLO.
-
-
-
-%----------------------------------------------------------------------------------------
-%	TEACHING
-%----------------------------------------------------------------------------------------
-\clearpage %modificare
-
-\spacedlowsmallcaps{Teaching}\vspace{0.5em}
-
-\NewEntry{\footnotesize{Instructor}}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Game Theory (Bocconi $\cdot$ Summer School 2024)}}\vspace{-1em}
-
-\NewEntry{\footnotesize{TA (2022-now)}}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Econ 101 $\cdot$ Econ 102 $\cdot$ IO $\cdot$ Mech. Design (Bocconi undergrad)}}\vspace{-1em}
-
-\NewEntry{\footnotesize{TA (2022-now)}}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {Industry Analysis (Bocconi master)}}\vspace{-1em}
-
-
-\iffalse 
-%\vspace{-0.5em}
-%template for ta jobs
-\NewEntry{2022-now}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {TA $\cdot$ Econ 102 (undergrad) $\cdot$ Bocconi}}\vspace{-1em}
-
-%
-\NewEntry{2022-now}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {TA $\cdot$ Competition Economics (undergrad) $\cdot$ Bocconi}}\vspace{-1em}
-
-%
-\NewEntry{2022-now}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {TA $\cdot$ Industry Analysis (undergrad) $\cdot$ Bocconi}}\vspace{-1em}
-
-%
-\NewEntry{2021-now}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {TA $\cdot$ Mechanism Design (undergrad) $\cdot$ Bocconi}}\vspace{-1em}
-
-%
-\NewEntry{2021-now}{}
-
-\vspace{-1.5em}
-
-\Description{\MarginText{}  
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  {TA $\cdot$ Econ 101 (undergrad) $\cdot$ Bocconi}}
-
-\fi 
-
-
-
-
-
-
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS
-%----------------------------------------------------------------------------------------
-
-\spacedlowsmallcaps{Computer Skills}\vspace{1em}
-
-\Description{\MarginText{} Julia, Python, \textsc{R}, \LaTeX, SQL, Git}
-
-%----------------------------------------------------------------------------------------
-%	LANGUAGES
-%----------------------------------------------------------------------------------------
-
-
-\spacedlowsmallcaps{Languages}\vspace{0.5em}
-
-\Description{\MarginText{} \textsc{Italian} $\cdotp$ \emph{Native} ; \textsc{English} $\cdotp$ \emph{Professional} ; \textsc{Spanish} $\cdotp$ \emph{Intermediate} ; \textsc{French} $\cdotp$ \emph{Basic}}
-\iffalse 
-\newlength{\langbox} % Create a new length for the length of languages to keep them equally spaced
-\settowidth{\langbox}{English} % Length equals the length of "English" - if you have a longer language in your list put it here
-
-\Description{\parbox{\langbox}{\textsc{Italian}}\ \ $\cdotp$\ \ \ Native}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{\parbox{\langbox}{\textsc{English}}\ \ $\cdotp$\ \ \ Professional }
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{\parbox{\langbox}{\textsc{Spanish}}\ \ $\cdotp$\ \ \ Intermediate }
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{\parbox{\langbox}{\textsc{French}}\ \ $\cdotp$\ \ \ Basic }
-
-\vspace{-1em} % Negative vertical space to counteract the vertical space between every \Description command
-\fi 
-
-%\Description{\MarginText{Advanced}Computer Hardware and Support}
-
-%------------------------------------------------
-
-
-% ADD references section
-
-
-
-%\clearpage
-% first reference
-
-% Contact Reference Section
-\spacedlowsmallcaps{Contact References}\vspace{1em}
-
-% Begin minipage environment for side-by-side layout
-\begin{minipage}[t]{0.45\textwidth}
-    \footnotesize % Begin tiny font size environment for first reference
-    \cvreference{Nicolas Serrano Velarde}
-        {Full Professor}
-        {Department of Finance}
-        {Bocconi University}
-        {Via Roentgen 1}
-        {20136 Milano, Italy}
-        {nicolas.serranovelarde@unibocconi.it}\\[1em]
-\end{minipage}\hfill % Add horizontal space between minipages
-\begin{minipage}[t]{0.45\textwidth}
-    \footnotesize % Begin tiny font size environment for second reference
-    \cvreference{Carlo Schwarz}
-        {Assistant Professor}
-        {Department of Economics}
-        {Bocconi University}
-        {Via Roentgen 1}
-        {20136 Milano, Italy}
-        {carlo.schwarz@unibocconi.it}
-\end{minipage}
-% End minipage environment for side-by-side layout
-
-% add third reference
-{\footnotesize % Begin tiny font size environment
-\cvreference{Nicola Limodio}
-        {Associate Professor}
-        {Department of Finance}
-        {Bocconi University}
-        {Via Roentgen 1}
-        {20136 Milano, Italy}
-        {nicola.limodio@unibocconi.it}\\[1em]
-} % End tiny font size environment
-
-
-
-
-
-
-
-
-
-
-
-
-\end{cv}
+%-----HEADING------------------------------------------------------------------
+\begin{comment}
+In Europe it is common to include a picture of ones self in the CV. Select
+which heading appropriate for the document you are creating.
+\end{comment}
+
+
+% Without picture
+\begin{center}
+    \textbf{\huge \scshape Enrico Stivella} \\ \vspace{3pt} %\scshape sets small capital letters, remove if desired
+    \small \href{https://enrico-stivella.netlify.app}{enrico-stivella.netlify.app} $|$ 
+    \href{mailto:enrico.stivella@phd.unibocconi.it}{enrico.stivella@phd.unibocconi.it} %$|$ \textit{This version: \today} 
+    \\ \vspace{12pt}
+\textbf{\large Bocconi University} \\ \vspace{3pt} \small Via Roentgen 1, 20136, Milan, Italy
+\end{center}
+
+\vspace{4pt}
+\textbf{Placement Directors} \\
+Erika Deserranno $|$ \href{mailto:erika.deserranno@unibocconi.it}{erika.deserranno@unibocconi.it} \\
+Luigi Iovino $|$ \href{mailto:luigi.iovino@unibocconi.it}{luigi.iovino@unibocconi.it}
+% INSERT NAMES OF THE DEPARTMENT OF FINANCE
+\vspace{3pt}
+
+
+
+%-----EDUCATION----------------------------------------------------------------
+\section{Education}
+  \CVSubHeadingListStart
+%    \CVSubheading % Example
+%      {Degree Achieved}{Years of Study}
+%      {Institution of Study}{Where it is located}
+        \CVSubheading
+	      {PhD in Economics and Finance}{2020--2026 (expected)}
+	      {Bocconi University}{}{}
+        \CVSubheading
+        {Visiting Student Research Collaborator}{Winter and Spring 2025}
+        {University of Chicago}{Supervisor: Ufuk Ackigit} 
+        \CVSubheading
+        {Honors Student}{2015--2020}
+        {Sant'Anna School of Advanced Studies, Pisa}{Final grade: 100/100 cum laude}
+        \CVSubheading
+        {MSc in Economics}{2018--2020}
+        {Sant'Anna School of Advanced Studies, Pisa}{Final grade: 110/110 cum laude}
+        \CVSubheading
+        {Undergraduate Degree in Economics}{2015--2018}
+        {University of Pisa}{Final grade: 110/110 cum laude, and commendation}
+         
+
+  \CVSubHeadingListEnd
+
+\section{References}
+%\CVSubHeadingListStart
+\hspace{12pt}
+\begin{tabularx}{\textwidth}{X @{\hspace{12mm}} X @{\hspace{2mm}} X @{\hspace{2mm}}X @{\hspace{-3mm}}} % Increased spacing between first two items
+  \textbf{Nicolas Serrano Velarde} & \textbf{Carlo Schwarz} & \textbf{Ufuk Ackigit} & \textbf{Nicola Limodio} \\
+  Bocconi University & Bocconi University & University of Chicago & Bocconi University \\
+  {\footnotesize \href{mailto:nicolas.serranovelarde@unibocconi.it}{nicolas.serranovelarde@unibocconi.it}} & 
+  {\footnotesize \href{mailto:carlo.schwarz@unibocconi.it}{carlo.schwarz@unibocconi.it}} & 
+  {\footnotesize \href{mailto:uackigit@uchicago.edu}{uackigit@uchicago.edu}} & 
+  {\footnotesize \href{mailto:nicola.limodio@unibocconi.it}{nicola.limodio@unibocconi.it}}
+\end{tabularx}
+%\CVSubHeadingListEnd
+
+\section{Research interests}
+\hspace{12pt} Labor Economics, Corporate Finance, Economics of Innovation
+
+
+\section{Research}
+
+\begin{list}{}{\setlength{\leftmargin}{12pt}}
+	\item ``\href{https://enrico-stivella.netlify.app/publication/bankersrelocation/}{ Loans and human capital: Manager mobility in the ﬁnancial sector and credit allocation}'', with Angelo d'Andrea (Bank of Italy) (\textit{Job Market Paper}).
+	\item ``\href{https://enrico-stivella.netlify.app/publication/nuclearscience/}{Scientific resilience: How Italian nuclear physics changed after the Chernobyl disaster}'' \\
+	\item ``\href{https://enrico-stivella.netlify.app/publication/procurementsbir/}{Procuring innovation: evidence from the SBIR program}'' \\
+	\item ``Start Up Nation: Spillovers from Breakthrough Technologies,'' with Nicolas Serrano Velarde, Efraim Benmelech, Maor Milgrom (in progress) \\
+\end{list}
+
+\section{Teaching}
+\CVSubHeadingListStart
+\CVSubheading
+{Game Theory (summer school)}{2024}
+{Main instructor}{Bocconi University}{} 
+\CVSubheading
+{Econ 101 (undergraduate)}{2021 - 2025}
+{Teaching Assistant to Fausto Panunzi, Michela Braga, Nicoletta Corrocher}{Bocconi University}{}
+\CVSubheading
+{Econ 102 (undergraduate)}{2023 - 2024}
+{Teaching Assistant to Michela Braga}{Bocconi University}{}
+\CVSubheading
+{Competition Economics (undergraduate)}{2022 - 2024}
+{Teaching Assistant to Chiara Fumagalli}{Bocconi University}{}
+\CVSubheading
+{Mechanism Design (undergraduate)}{2022 - 2024}
+{Teaching Assistant to Fausto Panunzi and Nenad Kos}{Bocconi University}{}
+\CVSubheading
+{Industry Analysis (master's)}{2022 - 2024}
+{Teaching Assistant to Stefano Breschi}{Bocconi University}{}
+\CVSubHeadingListEnd
+
+\section{Conferences and seminars}
+\hspace{12pt} HEC PhD Conference (HEC - Paris) \hfill 2025\\
+\smallskip
+\hspace{12pt} EEA Congress (Bordeaux) \hfill 2025\\
+\smallskip
+\hspace{12pt} EDGE Jamboree (University of Cambridge) \hfill 2025\\
+\smallskip
+\hspace{12pt} Finance Seminar (Bocconi) \hfill 2025\\
+\smallskip
+\hspace{12pt} Food4Thought Brown Bag Seminar (Bocconi) \hfill 2025\\
+\smallskip
+\hspace{12pt} Finest Workshop (University of Milan) \hfill 2025\\
+\smallskip
+\hspace{12pt} Labor and Finance Group (Berlin-Halle Iwh) \hfill 2025\\
+\smallskip
+\hspace{12pt} Bank-Firm Seminar (CEMFI) \hfill 2025\\
+\smallskip
+\hspace{12pt} Capital Theory Seminar (University of Chicago) \hfill 2025\\
+\smallskip
+\hspace{12pt} Yiran Fan Memorial Conference (University of Chicago) \hfill 2025\\
+\smallskip
+\hspace{12pt} Experimental Seminar Series (University of Chicago) \hfill 2025\\
+\smallskip
+\hspace{12pt} Applied Micro Student Seminar (University of Chicago) \hfill 2025\\
+\smallskip
+\hspace{12pt} AMT Student Seminar (University of Chicago) \hfill 2025\\
+\smallskip
+\hspace{12pt} Milan PhD Workshop (Bocconi-PoliMi) \hfill 2024\\
+\smallskip
+\hspace{12pt} EDGE Jamboree (UCD Dublin) \hfill 2024\\
+\smallskip
+\hspace{12pt} Finance Brown Bag (Bocconi) \hfill 2024\\
+\smallskip
+\hspace{12pt} Food4Thought Brown Bag Seminar (Bocconi) \hfill 2024\\
+\smallskip
+\hspace{12pt} Società Italiana degli Economisti (L'Aquila) \hfill 2023\\
+\smallskip
+\hspace{12pt} Regis, Reading Group in Innovation Studies (Pisa) \hfill 2023\\
+\smallskip
+\hspace{12pt} Milan PhD Workshop (Bocconi-PoliMi) \hfill 2023\\
+
+\vspace{1pt}
+
+\section{Scholarships and awards}
+
+\CVSubHeadingListStart
+\CVAw{Bocconi PhD Merit financial support}{2024-2025}{Fondazione Romeo and Erica Invernizzi}{}
+\CVAw{Bocconi PhD Fellowship}{2020-2024}{Bocconi University}{}
+\CVAw{Honors Student Scholarship}{2015-2020}{Sant’Anna School of Advanced Studies, Pisa}{}
+
+\CVSubHeadingListEnd
+
+%\section{Activities}
+%\hspace{12pt} CCCC \hfill 2022, 2023, 2024, 2025
+
+\vspace{1pt}
+
+\section{Other}
+\hspace{12pt} Citizenship: Italian\\
+\smallskip
+\hspace{12pt} Languages: Italian (native), English (fluent), Spanish (intermediate), French (basic)
+    
 
 \end{document}
-
-
-\vspace{1em} % Extra space between major sections
-
-
-%----------------------------------------------------------------------------------------
-%	OTHER INFORMATION
-%----------------------------------------------------------------------------------------
-\newpage %modificare
-\spacedlowsmallcaps{Other Information}\vspace{1em}
-
-\Description{\MarginText{Awards}2015\ \ $\cdotp$\ \ Premio ASUF: Most representative student in the high school}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{2014\ \ $\cdotp$\ \ Premio Dentici: Best essay on the Italian Resistance}
-
-\vspace{-0.5em}
-
-\Description{2011\ \ $\cdotp$\ \ Piccolo Agone Placidiano: Best translation from Greek to Italian}
-
-
-%------------------------------------------------
-
-\vspace{1em}
-
-\Description{\MarginText{Previous Activities}2016\ \ $\cdotp$\ \ Member of the Jury of the national selection for the European Youth Parliament}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{2014-2015\ \ $\cdotp$\ \ Assistant coach in a mini-basketball team and referee for the home matches}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{2011-2015\ \ $\cdotp$\ \ Member of the high school drama group}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{2011-2013\ \ $\cdotp$\ \ Students representative member in the high school Board}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{2010-2015\ \ $\cdotp$\ \ Volunteer in the oratory of my hometown}
-
-%------------------------------------------------
-
-\vspace{1em}
-
-
-%------------------------------------------------
-
-%\Description{\MarginText{Interests}Cinema\ \ $\cdotp$\ \ Literature\ \ $\cdotp$\ \ Politics\ \ $\cdotp$\ \ Basketball\ \ $\cdotp$\ \ Football}
-
-%----
