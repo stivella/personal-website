@@ -1,5 +1,5 @@
 ---
-title: 'Loans and human capital: Manager mobility in the ﬁnancial sector and credit allocation'
+title: 'Bankers on the Move: Relationship Capital in Credit Markets'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -29,7 +29,7 @@ publication_types: ['3']
 publication: 
 publication_short: 
 
-abstract: Information is a core input in financial intermediation, yet little is known about how it is transmitted through labor mobility. In this paper - for the first time - we are able to link administrative data on loan contracts and employment histories to track the movements of bank managers and their portfolios of client firms across financial institutions. We show that when a manager switches employers, firms in their prior portfolio are five times more likely to initiate a lending relationship with the new bank. This effect reflects both a higher propensity of firms to apply for credit and a greater likelihood of loan approval. To isolate the causal role of manager mobility, we exploit variation in the timing of job switches and leverage exogenous shocks to mobility induced by branch closures. Our findings underscore the importance of individual-level human capital in shaping credit market outcomes and highlight a novel channel for information transmission in the financial sector.
+abstract: Information is a core input in financial intermediation, yet little is known about how it is transmitted through labor mobility. In this paper - for the first time - we are able to link administrative data on loan contracts and employment histories to track the movements of bank managers and their portfolios of client firms across financial institutions. We show that when a manager switches employers, firms in their prior portfolio are three times more likely to initiate a lending relationship with the new bank. To isolate the causal role of manager mobility, we exploit variation in the timing of job switches and leverage exogenous shocks to mobility induced by branch closures. This effect reflects both a higher propensity of firms to apply for credit and a greater likelihood of loan approval. We further document that the resulting lending relationships are associated with lower interest rates and lower default rates. Our findings underscore the importance of individual-level human capital in improving credit market outcomes and highlight a novel channel for information transmission in the financial sector.
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: '/Bankers_relocation.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
