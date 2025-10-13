@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: '/Bankers_relocation.pdf'
+url_pdf: '/bankersrelocation.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
