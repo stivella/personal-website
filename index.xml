@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Enrico Stivella</title><link>https://stivella.github.io/</link><atom:link href="https://stivella.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Enrico Stivella</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>https://stivella.github.io/media/icon_hu24856ba9aeaae746ff88cd949126ab69_32567_512x512_fill_lanczos_center_3.png</url><title>Enrico Stivella</title><link>https://stivella.github.io/</link></image><item><title>Bankers on the Move: Relationship Capital in Credit Markets</title><link>https://stivella.github.io/publication/bankersrelocation/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://stivella.github.io/publication/bankersrelocation/</guid><description>&lt;h2 id="smallpresented-atsmall">&lt;small>Presented at&lt;/small>&lt;/h2>
-&lt;p>&lt;small>Capital Theory Seminar, Yiran Fan Memorial Conference, Experimental Seminar Series, Applied Micro Student Seminar, AMT Student Seminar (University of Chicago) • EEA Congress (Bordeaux) • PhD Conference in memory of Denis Gromb (HEC Paris) • EDGE Jamboree (Cambridge) • Department of Finance Seminar, Food 4 Thought, Finance Brown Bag (Bocconi University) • Milan PhD workshop (Bicocca University) • Finest Autumn Workshop (University of Milan) • Labor and Finance Group (Berlin-Halle Iwh)&lt;/small>&lt;/p>
-&lt;!-- &lt;div class="alert alert-note">
-&lt;div>
-Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-&lt;/div>
-&lt;/div>
-&lt;div class="alert alert-note">
-&lt;div>
-Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
-&lt;/div>
-&lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --!></description></item><item><title>Game Theory</title><link>https://stivella.github.io/teaching/econ101/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0100</pubDate><guid>https://stivella.github.io/teaching/econ101/</guid><description>&lt;p>I was the main instructor for the Bocconi summer school course in Game Theory&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Enrico Stivella</title><link>https://stivella.github.io/</link><atom:link href="https://stivella.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Enrico Stivella</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0100</lastBuildDate><image><url>https://stivella.github.io/media/icon_hu24856ba9aeaae746ff88cd949126ab69_32567_512x512_fill_lanczos_center_3.png</url><title>Enrico Stivella</title><link>https://stivella.github.io/</link></image><item><title>Game Theory</title><link>https://stivella.github.io/teaching/econ101/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0100</pubDate><guid>https://stivella.github.io/teaching/econ101/</guid><description>&lt;p>I was the main instructor for the Bocconi summer school course in Game Theory&lt;/p>
 &lt;h3 id="description">Description&lt;/h3>
 &lt;p>Bocconi holds a summer school for high school students who are interested in economics. The course I taught was an introduction to game theory.
 I covered the basics of game theory, including the concepts of Nash equilibrium, dominant strategies, and the prisoner&amp;rsquo;s dilemma.
@@ -67,7 +55,18 @@ The course was taught in English and was designed to be interactive, with studen
 &lt;h2 id="materials">Materials&lt;/h2>
 &lt;ul>
 &lt;li>The entire course material is on the website &lt;a href="https://didattica.unibocconi.it/ts/tsn_anteprima.php?cod_ins=30419&amp;amp;anno=2019&amp;amp;IdPag=6162" target="_blank" rel="noopener">Mech Design&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Procuring innovation: evidence from the SBIR program</title><link>https://stivella.github.io/publication/procurementsbir/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://stivella.github.io/publication/procurementsbir/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;/ul></description></item><item><title>Strategic Decision Making and Markets</title><link>https://stivella.github.io/teaching/strategicdecision/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0100</pubDate><guid>https://stivella.github.io/teaching/strategicdecision/</guid><description>&lt;p>I am the Teaching Assistant for the undergraduate course in Strategic Decision Making and Markets at Bocconi University (code 30458) and Market, Organization and Incentives (30283)&lt;/p>
+&lt;h3 id="classes">Classes&lt;/h3>
+&lt;ul>
+&lt;li>Teaching Assistant to professor Chiara Fumagalli (2022-on)&lt;/li>
+&lt;/ul>
+&lt;h2 id="materials">Materials&lt;/h2>
+&lt;ul>
+&lt;li>30458: The entire course material is on the website &lt;a href="https://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=30458&amp;amp;anno=2019&amp;amp;IdPag=6162" target="_blank" rel="noopener">Decision Making&lt;/a>&lt;/li>
+&lt;li>30283: The entire course material is on the website &lt;a href="https://didattica.unibocconi.it/ts/tsn_anteprima.php?cod_ins=30283&amp;amp;anno=2024&amp;amp;IdPag=" target="_blank" rel="noopener">Markets&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://stivella.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://stivella.github.io/admin/config.yml</guid><description/></item><item><title>Bankers on the Move: Relationship Capital in Credit Markets</title><link>https://stivella.github.io/publication/bankersrelocation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://stivella.github.io/publication/bankersrelocation/</guid><description>&lt;h2 id="smallpresented-atsmall">&lt;small>Presented at&lt;/small>&lt;/h2>
+&lt;p>&lt;small>Capital Theory Seminar, Yiran Fan Memorial Conference, Experimental Seminar Series, Applied Micro Student Seminar, AMT Student Seminar (University of Chicago) • EEA Congress (Bordeaux) • PhD Conference in memory of Denis Gromb (HEC Paris) • EDGE Jamboree (Cambridge) • Department of Finance Seminar, Food 4 Thought, Finance Brown Bag (Bocconi University) • Milan PhD workshop (Bicocca University) • Finest Autumn Workshop (University of Milan) • Labor and Finance Group (Berlin-Halle Iwh)&lt;/small>&lt;/p>
+&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -77,7 +76,17 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --!></description></item><item><title>Scientific resilience: How Italian nuclear physics changed after the Chernobyl disaster</title><link>https://stivella.github.io/publication/nuclearscience/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://stivella.github.io/publication/nuclearscience/</guid><description>&lt;h2 id="smallpresented-atsmall">&lt;small>Presented at&lt;/small>&lt;/h2>
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --!></description></item><item><title>Procuring innovation: evidence from the SBIR program</title><link>https://stivella.github.io/publication/procurementsbir/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://stivella.github.io/publication/procurementsbir/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --!></description></item><item><title>Scientific resilience: How Italian nuclear physics changed after the Chernobyl disaster</title><link>https://stivella.github.io/publication/nuclearscience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://stivella.github.io/publication/nuclearscience/</guid><description>&lt;h2 id="smallpresented-atsmall">&lt;small>Presented at&lt;/small>&lt;/h2>
 &lt;p>&lt;small>EDGE Jamboree (UCD Dublin, Sept &amp;lsquo;24) • Società Italiana degli Economisti (L’Aquila, Oct &amp;lsquo;23) • Milan PhD Workshop (Bocconi-PoliMi, Sept &amp;lsquo;23) • Reading Group in Innovation Studies (Pisa, June &amp;lsquo;23)&lt;/small>&lt;/p>
 &lt;!-- &lt;div class="alert alert-note">
 &lt;div>
@@ -89,13 +98,4 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --!></description></item><item><title>Strategic Decision Making and Markets</title><link>https://stivella.github.io/teaching/strategicdecision/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0100</pubDate><guid>https://stivella.github.io/teaching/strategicdecision/</guid><description>&lt;p>I am the Teaching Assistant for the undergraduate course in Strategic Decision Making and Markets at Bocconi University (code 30458) and Market, Organization and Incentives (30283)&lt;/p>
-&lt;h3 id="classes">Classes&lt;/h3>
-&lt;ul>
-&lt;li>Teaching Assistant to professor Chiara Fumagalli (2022-on)&lt;/li>
-&lt;/ul>
-&lt;h2 id="materials">Materials&lt;/h2>
-&lt;ul>
-&lt;li>30458: The entire course material is on the website &lt;a href="https://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=30458&amp;amp;anno=2019&amp;amp;IdPag=6162" target="_blank" rel="noopener">Decision Making&lt;/a>&lt;/li>
-&lt;li>30283: The entire course material is on the website &lt;a href="https://didattica.unibocconi.it/ts/tsn_anteprima.php?cod_ins=30283&amp;amp;anno=2024&amp;amp;IdPag=" target="_blank" rel="noopener">Markets&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://stivella.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://stivella.github.io/admin/config.yml</guid><description/></item></channel></rss>
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --!></description></item></channel></rss>
