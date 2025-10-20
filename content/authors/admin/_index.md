@@ -65,6 +65,7 @@ email: ''
 highlight_name: true
 ---
 
+<br>
 
 I am a 6th-year Phd student in Economics at Bocconi University.\
 I will be on the academic job market in Fall 2025.\
@@ -75,10 +76,13 @@ Before that, I was as a honors student at [Sant'Anna School of Advanced Studies]
 
 
 My research examines the career transitions of highly skilled workers to assess whether they transfer their expertise when changing jobs.
-I find that such transfers can influence key economic outcomes, including credit allocation, innovation, and scientific productivity.\
-My job market paper - coauthored with Angelo D'Andrea (Bank of Italy) - demonstrates that bank managers can carry their client portfolios when moving to a competitor, thereby improving the efficiency of credit allocation in the economy.\
+I find that such transfers can influence key economic outcomes, including credit allocation, innovation, and scientific productivity.
+
+My job market paper - coauthored with Angelo D'Andrea (Bank of Italy) - demonstrates that bank managers can carry their client portfolios when moving to a competitor, thereby improving the efficiency of credit allocation in the economy.
+
 A second project investigates the limited transferability of specialized scientific human capital with Italian nuclear physicists.
-After facing a large negative funding shock, they struggled to reallocate their expertise to new fields, resulting in lower productivity.\
+After facing a large negative funding shock, they struggled to reallocate their expertise to new fields, resulting in lower productivity.
+
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/cv_stivella.pdf" "newtab" >}}CV{{< /staticref >}}.
 
 <!--
