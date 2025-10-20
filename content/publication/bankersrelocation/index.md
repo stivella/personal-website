@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: ''
+  caption: 'Bank manager moves to a new bank. Firms A and B are part of her portfolio, firm A follows her'
   focal_point: ''
   preview_only: false
 
