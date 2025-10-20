@@ -50,7 +50,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: '' #"static/uploads/slides/Scientific_resilience.pdf" # /Users/enricostivella/personal-website/static/uploads/slides/Scientific_resilience.pdf
+url_slides: '/Bankers_relocation_presentation.pdf'
 url_source: ''
 url_video: ''
 
