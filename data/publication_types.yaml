@@ -1,0 +1,12 @@
+# Publication type names
+# Used to override the default publication type names displayed on the website
+
+0: "Uncategorized"
+1: "Conference paper"
+2: "Journal article"
+3: "Working Paper"
+4: "Report"
+5: "Book"
+6: "Book section"
+7: "Thesis"
+8: "Patent"

@@ -25,8 +25,8 @@ publishDate: '2023-09-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: 3rd year paper for Bocconi PhD in Economics
-publication_short: 3rd year paper
+publication: #3rd year paper for Bocconi PhD in Economics
+publication_short: #3rd year paper
 
 abstract: Economists have been long debating about the effectiveness of policies aimed at inducing directed technical change. Policymakers can use several tools, such as military-driven public investment, research grants, or public procurement. I examine a unique amalgamation of such tools in a US context, where small businesses winning federal research grants (SBIR) can also secure procurement contracts from the Department of Defense. Employing a Difference-in-Differences framework and three comprehensive datasets - SBIR grants, DoD procurement contracts (USAspending.gov), and Patstat - I find that while procurement contract winners do not patent more than other SBIR participants, they get 1 million dollars more in government contracts every year.
 # Summary. An optional shortened abstract.
