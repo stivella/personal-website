@@ -68,7 +68,6 @@ highlight_name: true
 <br>
 
 I am a 6th-year Phd student in Economics at Bocconi University.\
-I will be on the academic job market in Fall 2025.\
 In Winter and Spring 2025 I visited professor Ufuk Akcigit at the University of Chicago.
 <!--
 Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.\
