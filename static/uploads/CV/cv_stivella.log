@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.14)  16 DEC 2025 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.14)  22 DEC 2025 13:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -503,11 +503,11 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 134
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 142.
+(Font)              <10.95> on input line 157.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 142.
+(Font)              <8> on input line 157.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 142.
+(Font)              <6> on input line 157.
 
 Overfull \hbox (25.60309pt too wide) in paragraph at lines 184--184
 []|[]\OT1/ppl/m/n/9 nicolas.serranovelarde@unibocconi.it[]| 
@@ -525,18 +525,18 @@ Package rerunfilecheck Info: File `cv_stivella.out' has not changed.
 (rerunfilecheck)             Checksum: F643E52D3891798BF0702B448B13FAAF;884.
  ) 
 Here is how much of TeX's memory you used:
- 20128 strings out of 478994
- 367187 string characters out of 5858184
- 671423 words of memory out of 5000000
+ 20126 strings out of 478994
+ 367169 string characters out of 5858184
+ 672423 words of memory out of 5000000
  37225 multiletter control sequences out of 15000+600000
- 417817 words of font info for 63 fonts, out of 8000000 for 9000
+ 417179 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,9n,116p,471b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf (2 pages, 65903 bytes).
+ 113i,9n,116p,471b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on /Users/enricostivella/personal-website/static/uploads/CV/cv_stivella.pdf (2 pages, 57997 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
