@@ -67,9 +67,11 @@ highlight_name: true
 
 <br>
 
-I am a 6th-year Phd student in Economics at Bocconi University.\
-In February 2026, I will join the University of Chicago as a Postdoctoral Scholar in Economics, working with professor Ufuk Akcigit.
+I am a Postddoctoral Scholar in Economics at the University of Chicago, working with professor Ufuk Akcigit.
+Before that, I completed my PhD in Economics and Finance at Bocconi University under the supervision of professor Nicolas Serrano-Velarde.
+I hold a Master's and a Bachelor's degree in Economics from Sant'Anna School of Advanced Studies and the University of Pisa.
 <!--
+In February 2026, I will join the University of Chicago as a Postdoctoral Scholar in Economics, working with professor Ufuk Akcigit.
 In Winter and Spring 2025 I visited professor Ufuk Akcigit at the University of Chicago.
 Before that, I was as a honors student at [Sant'Anna School of Advanced Studies](https://www.santannapisa.it/en) in Pisa, where I earned my Master's degree in Economics.\
 -->
