@@ -27,21 +27,22 @@ content:
   # Contact details (edit or remove options as required)
   #email: enrico.stivella@phd.unibocconi.it
   email: enrico.stivella@unibocconi.it
+  email: stivella@uchicago.edu
   #phone: 888 888 88 88
   address:
-    street: via Röntgen 1
-    city: Milan
-    #region: CA
-    postcode: '20136'
-    country: Italy
-    country_code: IT
+    street: 5757 S. University Ave
+    city: Chicago
+    region: IL
+    postcode: '60637'
+    country: United States
+    country_code: US
   coordinates:
-    latitude: '45.45096309357562'
-    longitude: '9.187722382190515'
-  directions: Office 5-e2-03 on Floor 5
-  office_hours:
-    - 'Wednesday 15:00 to 16:30'
-    - 'Thursday 16:30 to 18:00'
+    latitude: '41.789205983643'
+    longitude: '-87.622382190515'
+  directions: ART Lab
+  #office_hours:
+  #  - 'Wednesday 15:00 to 16:30'
+  # - 'Thursday 16:30 to 18:00'
   #appointment_url: ''  #inserire qui l'agenda virtuale bocconi
   #contact_links:
    # - icon: twitter
