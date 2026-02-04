@@ -51,7 +51,7 @@ content:
       link: 'mailto:stivella@uchicago.edu'
     - icon: envelope
       icon_pack: fas
-      name: For Bocconi students: enrico.stivella@unibocconi.it
+      name: For Bocconi students - enrico.stivella@unibocconi.it
       link: 'mailto:enrico.stivella@unibocconi.it'
 design:
   columns: '2'
