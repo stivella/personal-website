@@ -10,8 +10,8 @@ role: PhD student in Economics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Bocconi University
-    url: https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/
+  - name: University of Chicago, Department of Economics
+    url: https://economics.uchicago.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Mostly doing research in Economics of Science, Innovation and Human Capital. If not, playing basketball or getting lost in the mountains.
@@ -26,6 +26,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: PhD in Economics and Finance
+      institution: Bocconi University
+      year: 2026
     - course: Honors student diploma
       institution: Sant'Anna School
       year: 2020

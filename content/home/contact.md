@@ -26,8 +26,8 @@ content:
 
   # Contact details (edit or remove options as required)
   #email: enrico.stivella@phd.unibocconi.it
-  email: enrico.stivella@unibocconi.it
-  email: stivella@uchicago.edu
+  #email: enrico.stivella@unibocconi.it
+  #email: stivella@uchicago.edu
   #phone: 888 888 88 88
   address:
     street: 5757 S. University Ave
@@ -39,20 +39,20 @@ content:
   coordinates:
     latitude: '41.789205983643'
     longitude: '-87.622382190515'
-  directions: ART Lab
+  directions: Kenneth C. Griffin Department of Economics, University of Chicago
   #office_hours:
   #  - 'Wednesday 15:00 to 16:30'
   # - 'Thursday 16:30 to 18:00'
   #appointment_url: ''  #inserire qui l'agenda virtuale bocconi
-  #contact_links:
-   # - icon: twitter
-    #  icon_pack: fab
-     # name: DM Me
-     # link: 'https://twitter.com/Twitter'
-    #- icon: video
-     # icon_pack: fas
-     # name: Zoom Me
-      #link: 'https://zoom.com'
+  contact_links:
+    - icon: envelope
+      icon_pack: fas
+      name: Bocconi Email
+      link: 'mailto:enrico.stivella@unibocconi.it'
+    - icon: envelope
+      icon_pack: fas
+      name: University of Chicago Email
+      link: 'mailto:stivella@uchicago.edu'
 
 design:
   columns: '2'
