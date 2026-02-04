@@ -47,13 +47,12 @@ content:
   contact_links:
     - icon: envelope
       icon_pack: fas
-      name: Bocconi Email
-      link: 'mailto:enrico.stivella@unibocconi.it'
+      name: stivella@uchicago.edu
+      link: 'mailto:stivella@uchicago.edu'
     - icon: envelope
       icon_pack: fas
-      name: University of Chicago Email
-      link: 'mailto:stivella@uchicago.edu'
-
+      name: For Bocconi students: enrico.stivella@unibocconi.it
+      link: 'mailto:enrico.stivella@unibocconi.it'
 design:
   columns: '2'
 ---
