@@ -6,7 +6,7 @@ title: Enrico Stivella
 superuser: true
 
 # Role/position/tagline
-role: PhD student in Economics
+role: Postdoctoral Scholar in Economics
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -70,7 +70,7 @@ highlight_name: true
 
 <br>
 
-I am a Postddoctoral Scholar in Economics at the University of Chicago, working with professor Ufuk Akcigit.
+I am a Postdoctoral Scholar in Economics at the University of Chicago, working with professor Ufuk Akcigit.
 Before that, I completed my PhD in Economics and Finance at Bocconi University under the supervision of professor Nicolas Serrano-Velarde.
 I hold a Master's and a Bachelor's degree in Economics from Sant'Anna School of Advanced Studies and the University of Pisa.
 <!--
